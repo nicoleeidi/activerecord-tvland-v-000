@@ -6,7 +6,7 @@ def full_name
 end
 def list_roles
   "#{self.character} - #{self.show}"
-  self.characters
+  
 end
 "Khaleesi - Game of Thrones"
 end
