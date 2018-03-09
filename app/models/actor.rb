@@ -6,7 +6,7 @@ def full_name
 end
 def list_roles
   self.characters.each do |character|
-    puts "#{character.name} - #{character.show}"
+    puts "#{character.name} - #{character.show.name}"
   #"#{self.character} - #{self.character.show}"
 end
 
