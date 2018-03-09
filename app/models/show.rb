@@ -5,6 +5,6 @@ class Show < ActiveRecord::Base
   #needs genre= method
   def build_network(network)
     binding.pry
-    self.network.call_letters = network 
+    self.network.call_letters = network
   end
 end
