@@ -4,6 +4,7 @@ class Show < ActiveRecord::Base
   belongs_to :network
   #needs genre= method
   def build_network(network)
-    self.network.call_letters = network
+    binding.pry
+    self.network.call_letters = network 
   end
 end
