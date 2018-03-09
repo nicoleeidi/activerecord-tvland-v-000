@@ -5,7 +5,10 @@ def full_name
   self.first_name + " " + self.last_name
 end
 def list_roles
-  "#{self.character} - #{self.show}"
+  self.characters.each do |character|
+    puts "#{character} - #{character.show}"
+  #"#{self.character} - #{self.character.show}"
+end 
 
 end
 
