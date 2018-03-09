@@ -1,0 +1,3 @@
+class AddStuffToShows < ActiveRecord::Migration[5.1]
+  name, genre, day, season .... 
+end
